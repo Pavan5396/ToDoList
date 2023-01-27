@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #7b4397, #dc2430);
+
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.todo {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+
+.todoText {
+    padding: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+.listFilter {
+    color: #dc2430;
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    border: none;
+    background-color: #dc2430;
+}
+
+
+.bi-plus {
+
+    color: white;
+    font-size: 33px;
+    transition: all 0.3s ease;
+}
+
+
+.todoItem {
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+
+
+
+}
+
+.todo-list {
+    list-style: none;
+
+
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 50px auto;
+
+}
+
+.completedBtn,
+.deleteBtn {
+    color: white;
+    background-color: #73ce28;
+    margin-right: 0px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.deleteBtn {
+    background-color: #ff3c06;
+}
+
+
+.fa-trash-can,
+.fa-check {
+    pointer-events: none;
+
+}
+
+
+.completedStyle {
+    opacity: 0.5;
+    text-decoration: line-through;
+
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+
+}
+
+/* 
+
+.todo-list {
+    list-style: none;
+    flex: 1;
+}
+
+
+.fa-check {
+    color: white;
+    font-size: 30px;
+    background-color: #73ce28;
+    margin-right: -10px;
+    padding: 5px;
+
+}
+
+.fa-trash-can {
+    color: white;
+    background-color: #d4000e;
+    font-size: 30px;
+    margin-right: -10px;
+    padding: 3px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    min-width: 300px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 50px auto;
+
+}
+
+
+
+
+.compeledStyle {
+    opacity: 0.5;
+    text-decoration: line-through;
+
+}
+
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+
+} */

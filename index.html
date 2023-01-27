@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="text-center">
+
+        <h1 class="heading">Todo List</h1>
+
+
+        <div class="todo">
+            <form class="addList">
+                <input type="text" class="todoText">
+                <button class="button" type="submit">
+                    <i class="bi bi-plus"></i>
+                </button>
+            </form>
+
+            <div class="filter">
+                <select class="listFilter">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="todo-container">
+            <ul class="todo-list">
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+
+
+</html>
